@@ -1,0 +1,139 @@
+<?php include_once("../layout/header.html"); ?>
+
+<div id="join_wrap">
+    <form id="join">
+        <fieldset>
+            <legend>회원정보입력</legend>
+            <p class="join_title">
+                <i class="xi-check-min"></i>
+                <span>항목은 필수 입력항목입니다.</span>
+            </p>
+            <div id="join_namo">
+                <p class="join_name">
+                    <span class="form_title">이름 : </span>
+                    <i class="xi-check-min"></i>
+                    <input type="text" placeholder="한글로 입력해주세요." name="name" autofocus required autocomplete="off" class="name_01">
+                </p>
+                <p class="join_id">
+                    <span class="form_title">아이디 : </span>
+                    <i class="xi-check-min"></i>
+                    <input type="text" placeholder="공백 없는 영문/숫자 포함 6~20자" name="ID" required autocomplete="off" class="id_01">
+                    <button class="id_btn">아이디 확인하기</button>
+                </p>
+                <p class="join_pw">
+                    <span class="form_title">비밀번호 : </span>
+                    <i class="xi-check-min"></i>
+                    <input type="password" placeholder="공백 없는 영문/숫자 포함 6~20자" name="PW" required autocomplete="off" class="pw_01">
+                </p>
+                <p class="join_pw02">
+                    <span class="form_title">비밀번호 확인 : </span>
+                    <i class="xi-check-min"></i>
+                    <input type="password" name="PW" required autocomplete="off" class="pw_02">
+                </p>
+                <p class="join_tel">
+                    <span class="form_title">전화번호 : </span>
+                    <i class="xi-check-min"></i>
+                    <select class="tel_01">
+                        <option>선택</option>
+                        <option>010</option>
+                        <option>011</option>
+                        <option>016</option>
+                        <option>017</option>
+                        <option>018</option>
+                        <option>019</option>
+                    </select>-
+                    <input type="tel" name="hp_01" class="hpp_01" autocomplete="off"  required>
+                    <!---
+                    <input type="button" name="button_02" value="인증번호받기" disabled class="bt_02">
+                    ---->
+                </p>
+                <!------
+                <p>
+                    <span class="form_title">인증번호 : </span>
+                    <input type="text" placeholder="인증번호를 입력해주세요." name="disbled" class="dl_01" required autocomplete="off">
+                    <input type="button" name="button_01" value="다음" disabled class="bt_01">
+                </p>
+                ----->
+                <p class="join_email">
+                    <span class="form_title">E-mail : </span>
+                    <input type="text" name="email" class="email_01" autocomplete="off">@
+                    <select class="mail_01">
+                        <option>직접입력</option>
+                        <option>naver.com</option>
+                        <option>nate.com</option>
+                        <option>daum.com</option>
+                        <option>gmail.com</option>
+                    </select>
+                    <!---------
+                    <input type="text" name="email" class="email_01">
+                    ----------->
+                </p>
+                <p class="join_domicile">
+                    <span class="from_title">주소 : </span>
+                    <input type="text" name="domicile" class="domicile_01">
+                    <button class="domicile_btn">주소찾기</button>
+                    <br><input type="text" name="domicile" class="domicile_02">
+                    <br><input type="text" name="domicile" class="domicile_03">
+                </p>
+                <p class="join_htppy">
+                    <span class="form_title">생년월일 : </span>
+                    <input type="text" name="day" autocomplete="off" class="htppy_01" placeholder="년도">
+                    <select class="day_02">
+                        <option>월</option>
+                        <option>1월</option>
+                        <option>2월</option>
+                        <option>3월</option>
+                        <option>4월</option>
+                        <option>5월</option>
+                        <option>6월</option>
+                        <option>7월</option>
+                        <option>8월</option>
+                        <option>9월</option>
+                        <option>10월</option>
+                        <option>11월</option>
+                        <option>12월</option>
+                    </select>
+                    <select class="day_03">
+                        <option>일</option>
+                        <option>1일</option>
+                        <option>2일</option>
+                        <option>3일</option>
+                        <option>4일</option>
+                        <option>5일</option>
+                        <option>6일</option>
+                        <option>7일</option>
+                        <option>8일</option>
+                        <option>9일</option>
+                        <option>10일</option>
+                        <option>11일</option>
+                        <option>12일</option>
+                        <option>13일</option>
+                        <option>14일</option>
+                        <option>15일</option>
+                        <option>16일</option>
+                        <option>17일</option>
+                        <option>18일</option>
+                        <option>19일</option>
+                        <option>20일</option>
+                        <option>21일</option>
+                        <option>22일</option>
+                        <option>23일</option>
+                        <option>24일</option>
+                        <option>25일</option>
+                        <option>26일</option>
+                        <option>27일</option>
+                        <option>28일</option>
+                        <option>29일</option>
+                        <option>30일</option>
+                        <option>31일</option>
+                    </select>
+                </p>
+            </div>
+            <p class="join_scb">
+                <input type="submit" value="우리들의 공간으로" class="scb_01">
+            </p>
+        </fieldset>
+    </form>
+</div>
+
+<?php include_once("../layout/footer.html"); ?>

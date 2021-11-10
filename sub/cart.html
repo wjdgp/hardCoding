@@ -1,0 +1,104 @@
+<?php include_once("../layout/header.html"); ?>
+
+    <div id="cart_wrap">
+        <div class="cart_title">
+            <p>장바구니</p>
+        </div>
+        <div class="cart_allcheck">
+            <input type="checkbox" id="cart_allcheckbox" name="cart_checkbox">
+            <label for="cart_allcheckbox">전체선택 (2/2)</label>
+            <section class="cart_cutbtn">
+                <button>선택삭제</button>
+                <button>전체삭제</button>
+            </section>
+        </div>
+        <div class="cart_product">
+            <span>일반배송</span>
+            <ul class="cart_list_text">
+                <li>상품정보</li>
+                <li>옵션</li>
+                <li>상품금액</li>
+            </ul>
+            <section class="cart_list01">
+                <input type="checkbox" id="cart_listcheck01" name="cart_checkbox" class="all_check">
+                <div class="cart_listbox">
+                    <div class="cart_listbox_img">
+                        <img src="/img/modify_detail_068.jpg">
+                    </div>
+                    <p>
+                        <span>국내산 특품 하우스 캠벨포도 1kg (3수내외)</span>
+                        <span>21%</span>
+                        <span>18,900원</span>
+                        <span>23,900원</span>
+                    </p>
+                </div>
+                <div class="cart_listbox_num">
+                    <span>1kg</span>
+                    <section class="cart_ibtn">
+                        <button>
+                            <i class="xi-minus-min"></i>
+                        </button>
+                        <span>1</span>
+                        <button>
+                            <i class="xi-plus-min"></i>
+                        </button>
+                        <p>18,900원</p>
+                    </section>
+                </div>
+                <div class="cart_listbox_coin">
+                    <span>18,900원</span>
+                    <button class="cart_coinbtn">주문하기</button>
+                </div>
+            </section>
+            <section class="cart_list02">
+                <input type="checkbox" id="cart_listcheck02" name="cart_checkbox" class="all_check">
+                <div class="cart_listbox">
+                    <div class="cart_listbox_img">
+                        <img src="/img/modify_detail_01_01.jpg">
+                    </div>
+                    <p>
+                        <span>100% 국산 유기농 표고버섯 1kg / 2kg(파지)</span>
+                        <span>11,900원</span>
+                    </p>
+                </div>
+                <div class="cart_listbox_num">
+                    <span>2kg</span>
+                    <section class="cart_ibtn">
+                        <button>
+                            <i class="xi-minus-min"></i>
+                        </button>
+                        <span>1</span>
+                        <button>
+                            <i class="xi-plus-min"></i>
+                        </button>
+                    </section>
+                </div>
+                <div class="cart_listbox_coin">
+                    <span>17,800원</span>
+                    <button class="cart_coinbtn">주문하기</button>
+                </div>
+            </section>
+        </div>
+        <div class="cart_last_textbox">
+            <p>
+                <span>총 상품금액</span>
+                <span class="cart_text_bold">41,700원</span>
+            </p>
+            <i class="xi-minus"></i>
+            <p>
+                <span>할인예정금액</span>
+                <span class="cart_text_bold">5,000원</span>
+            </p>
+            <i class="xi-plus"></i>
+            <p>
+                <span>배송비</span>
+                <span class="cart_text_bold">30,000원 이상 무료배송</span>
+            </p>
+            <p>
+                <span>총 결제금액</span>
+                <span class="cart_text_bgrad">36,700원</span>
+            </p>
+        </div>
+    </div>
+
+<?php include_once("../layout/footer.html"); ?>

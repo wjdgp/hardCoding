@@ -1,0 +1,75 @@
+<?php include_once("../layout/header.html"); ?>
+
+<div id="login_wrap">
+    <p class="login_title">
+        <span>로그인</span>
+    </p>
+    <ul class="login_horb">
+        <li>
+            <input type="radio" id="login_horb_btn" checked name="login_horb_btn">
+            <label for="login_horb_btn">회원 로그인</label>
+            <div class="login_h">
+                <input type="text" placeholder="아이디를 입력해주세요." name="ID" required autocomplete="off" class="login_id">
+                <input type="password" placeholder="비밀번호를 입력해주세요." name="PW" required autocomplete="off" class="login_pw">
+                <input type="checkbox" id="login_id_storage">
+                <label for="login_id_storage">아이디저장</label>
+                <div class="login_login">
+                    <a href="/index.html">로그인</a>
+                </div>
+                <ul class="login_line">
+                    <li>
+                        <a href="#none">아이디찾기</a>
+                    </li>
+                    <li>
+                        <a href="#none">비밀번호찾기</a>
+                    </li>
+                    <li>
+                        <a href="/sub/join.html">회원가입</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <input type="radio" id="login_horb_btn02" name="login_horb_btn">
+            <label for="login_horb_btn02">비회원 주문조회</label>
+            <div class="login_b">
+                <input type="text" placeholder="주문번호" name="ID" required autocomplete="off" class="login_b_id">
+                <input type="password" placeholder="주문자 이메일" name="PW" required autocomplete="off" class="login_b_email">
+                <p>비회원은 주문번호와 이메일로 주문을 조회할 수 있습니다.</p>
+                <button class="login_b_btn">주문조회</button>
+            </div>
+        </li>
+    </ul>
+    <div class="login_sns">
+        <div class="login_ka">
+            <a href="#none">
+                <i class="xi-kakaotalk"></i>
+                카카오톡으로 10초만에 시작하기
+            </a>
+        </div>
+        <ul class="login_sns02">
+            <li>
+                <a href="#none" class="join_naver">
+                    <i class="xi-naver"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#none" class="join_facebook">
+                    <i class="xi-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#none" class="join_google">
+                    <i class="xi-google"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#none" class="join_apple">
+                    <i class="xi-apple"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<?php include_once("../layout/footer.html"); ?>
